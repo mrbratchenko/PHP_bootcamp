@@ -1,0 +1,273 @@
+body {
+   background-image: url(data:image/png;base64,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);
+   font-family: 'Open Sans', sans-serif;
+	color: #777;
+}
+ 
+	a {
+	color: #f58220;
+	font-weight: 400;
+}
+	
+span {
+	font-weight: 300;
+	color: #f58220;
+}
+
+
+img {
+	width: 10vmin;
+	height: 10vmin;
+}
+
+span {
+	font-weight: 300;
+	color: #f58220;
+}
+
+.tbutton{
+	min-height: 3vmin;
+	min-width: 3vmin;
+	font-size: 1.5vmin;
+	border-radius: 6px;
+	margin-left: 1.5vmin;
+}
+
+#cart {
+	width: 4vmin;
+	height: 4vmin;
+	border-radius: 6px;
+}
+
+#name {
+	padding-top: 8vmin;
+	text-align: center;
+	color: #e3eaa7;
+	text-shadow: black 3px 3px 20px, black 3px 3px 20px, black 3px 3px 20px;
+}
+
+#footer {
+	position: fixed;
+	height: 5%;
+    bottom: 0;
+	background-color: #ffaa80;
+	width: 98.7%;
+	border: 2px solid pink;
+	float: bottom;
+	border-radius: 6px;
+}
+
+#fbutton {
+	position: relative;
+	margin-top: 1.5vmin;
+	font-size: 1.5vmin;
+	border-radius: 6px;
+	margin-left: 1.5vmin;
+}
+
+.menu {
+	display: inline-block;
+	margin-bottom: 5%;
+	display: inline-block;
+	font-weight: bold;
+	list-style: none; 
+	display: inline;
+	float: left;
+	position: relative;
+	width: 20%;
+}
+.menu .item{
+	color: #6b5b95;
+	text-shadow: #feb236 3px 3px 10px, #feb236 3px 3px 10px;
+	font-size: 30px;
+	border-bottom: 1px solid #b2ad7f;
+	padding: 5px 1px;
+	text-align: center;	
+	
+}
+
+.error {
+	margin: 40px auto 0;
+	border: 1px solid #777;
+	padding: 3px;
+	text-align: center;
+	width: 650px;
+	background: #f58220;
+}
+
+nav {
+		width: 100%;
+		height: 70px;
+		background-color: #0009;
+		line-height: 40px;
+	}
+	nav ul {
+		float: right;
+		margin-right: 30px;
+	}
+
+	nav ul li {
+		list-style-type: none;
+		display: inline-block;
+		transition: 0.8s all;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		color: #fff;
+		padding: 30px;
+	}
+	nav ul li:hover {
+		background-color: #f39d1a;
+	}
+ 
+	a {
+   color: #f58220;
+ 	font-weight: 400;
+	}
+	
+	span {
+   font-weight: 300;
+   color: #f58220;
+	}
+ 
+	.mlogin {
+   margin: 170px auto 0;
+	}
+ 
+	.mregister {
+  margin: 80px auto 0;
+	}
+ 
+	.error {
+   margin: 40px auto 0;
+	border: 1px solid #777;
+ padding: 3px;
+	color: #fff;
+   text-align: center;
+ width: 650px;
+ background: #f58220;
+	}
+ 
+	.regtext {
+   font-size: 13px;
+   margin-top: 26px;
+   color: #777;
+	}
+	
+	.container h1 {
+	color: #777;
+	text-align: center;
+	font-weight: 300;
+   border: 1px dashed #777;
+   margin-top: 13px;
+	}
+ 
+	.container label {
+	color: #777;
+	font-size: 14px;
+	}
+ 
+	#login {
+  width: 320px;
+	margin: auto;
+	padding-bottom: 15px;
+	}
+ 
+	.button{
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+   color: #fff;
+	padding: 7px 12px;
+ border-radius:4px;
+	float: right;
+	cursor: pointer;
+	}
+
+	.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	color: white;
+    text-align: center;
+    background-color: #0005;
+}
+
+
+ 
+	.mlogin {
+   margin: 170px auto 0;
+	}
+ 
+	.mregister {
+  margin: 80px auto 0;
+	}
+ 
+	.error {
+   margin: 40px auto 0;
+	border: 1px solid #777;
+ padding: 3px;
+	color: #fff;
+   text-align: center;
+ width: 650px;
+ background: #0005;
+	}
+ 
+	.regtext {
+   font-size: 13px;
+   margin-top: 26px;
+   color: #777;
+	}
+	
+	.container {
+	padding: 25px 16px 25px 10px;
+	font-weight: 400;
+	overflow: hidden;
+	width: 350px;
+	height: auto;
+	background: #fff;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	}
+	
+	#welcome {
+	width: 500vw;
+	padding: 30px;
+	background: #fff;
+	margin: 160px auto 0;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+   box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	}
+	
+	.container h1 {
+	color: #777;
+	text-align: center;
+	font-weight: 300;
+   border: 1px dashed #777;
+   margin-top: 13px;
+	}
+ 
+	.container label {
+	color: #777;
+	font-size: 14px;
+	}
+ 
+	#login {
+  width: 320px;
+	margin: auto;
+	padding-bottom: 15px;
+	}
+ 
+	.container form .input,.container input[type=text],.container input[type=password],.container input[type=e] {
+	background: #fbfbfb;
+	font-size: 24px;
+	line-height: 1;
+	width: 100%;
+	padding: 3px;
+ margin: 0 6px 5px 0;
+   outline: none;
+   border: 1px solid #d9d9d9;
+	}
