@@ -1,0 +1,84 @@
+body {
+	background-color: #618685;
+}
+
+h1 {
+	margin-left: 150px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#main {
+	border:2px solid black;
+	width: 500px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #878f99;
+}
+
+.horiz {
+	position: relative;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 10px 5px 10px 5px;
+	border:2px solid black;
+	width: 150px;
+	height: 30px;
+}
+
+.drop {
+	display: none;
+	position: absolute;
+	background-color: white;
+	font-family: Courier;
+	font-size: 20px;
+	width: 150px;
+	height: 30px;
+	box-shadow: 0px 8px 16px 0px black;
+	padding: 12px 16px;
+	opacity: 0.6;
+	z-index: 1; 
+}
+
+.dropdown {
+	display: block;
+	background-color: white;
+	width: 150px;
+	padding-bottom: 20px;
+	margin-left: -18px;
+	box-shadow: 0 8px 16px 0 black;
+
+}
+
+.train:hover {
+	border: 2px solid blue;
+	background-color: #a2b9bc;
+	transition-duration: 0.4s;
+	color: blue;
+}
+
+.bus:hover {
+	border: 2px solid green;
+	background-color: #b5e7a0;
+	transition-duration: 0.4s;
+	color: green;
+}
+
+.plain:hover {
+	border: 2px solid red;
+	background-color: #ff99ff;
+	transition-duration: 0.4s;
+	color: red;
+}
+
+.horiz:hover .drop {
+	display: block;
+}
+
+.line {
+	border-top: 1px solid black;
+	width: 100px;
+	margin-left: 25px;
+}

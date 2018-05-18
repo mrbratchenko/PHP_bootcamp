@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Ballon
+	</title>
+</head>
+<body style="background-image: url(https://cdn.suwalls.com/wallpapers/photography/colorful-balloons-27601-2560x1600.jpg); ">
+	<div id="ballon" onclick="increaseSize(); changeColor()" onmouseout="reduceSize(); changeColorRev()" style="height: 200px; width: 200px; background-color: red; border-radius: 100%; margin: 10% 0% 0% 25%;">
+	</div>
+	<script>
+	var element = document.getElementById("ballon");
+	function increaseSize() {
+	    var height = element.offsetHeight;
+	    var width = element.offsetWidth;
+	    element.style.height = height + 10 + 'px';
+	    element.style.width = width + 10 + 'px';
+	    if (element.style.height >  420 + 'px') {
+	    	element.style.height =  200 + 'px';
+	    	element.style.width =  200 + 'px';
+	    }
+	}
+	function changeColor() {
+		if (element.style.backgroundColor == 'red')
+			element.style.backgroundColor = 'green'
+		else if (element.style.backgroundColor == 'green')
+			element.style.backgroundColor = 'blue'
+		else
+			element.style.backgroundColor = 'red'
+	}
+	function reduceSize() {
+	    var height = element.offsetHeight;
+	    var width = element.offsetWidth;
+	    if (element.style.height > 200 + 'px') {
+	    	element.style.height = height - 5 + 'px';
+	    	element.style.width = width - 5 + 'px';
+	    }
+	}
+	function changeColorRev() {
+		var height = element.offsetHeight;
+	    if (element.style.height > 200 + 'px') {
+			if (element.style.backgroundColor == 'red')
+				element.style.backgroundColor = 'blue'
+			else if (element.style.backgroundColor == 'blue')
+				element.style.backgroundColor = 'green'
+			else
+				element.style.backgroundColor = 'red'
+		}
+	}
+
+	</script>
+</body>
+</html>

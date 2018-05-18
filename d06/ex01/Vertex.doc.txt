@@ -1,0 +1,15 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles coordinates.
+
+We represent a vertex according to five characteristics:
+- x axis coordinate
+- y axis coordinate
+- z depth coordinate
+- w is the fourth coordinate of a three dimensional vertex (factor which divides
+ the other vector components. When W is 1.0, the homogeneous vertex 
+ coordinates are "normalized")
+- color is represented by an instance of the Color Class (see Color.doc.txt)
+
+By default x, y and z are equal to 0, w to 1 and color to white.
+---------------------------------------------------------------------- Vertex ->

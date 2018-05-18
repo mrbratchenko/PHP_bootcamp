@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+	</head>
+	<style>
+		h2 {margin-left: 200px; color: white; text-shadow: black 3px 3px 3px, black 3px 3px 3px;}
+		body {margin: 10% 0% 0% 20%; background: grey; position: relative;}
+		#calc {border: 2px solid black; height: 60px; width: 380px; padding: 30px 0px 0px 20px; margin: 60px 0px 0px 75px; position: absolute; z-index: 1; border-radius: 30px 30px 50px 50px; background-color: SlateGray;}
+		#pic {content:url(http://www.clker.com/cliparts/n/N/Y/W/R/2/calculator-hi.png);position: absolute; z-index: 0;}
+	</style>
+<body>
+<h2>The Calculator</h2>
+
+<div id="calc">
+	<input type="text" value="Number" onfocus="this.value=''" id="left_number">
+	</input>
+	<select id="operator">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+		<option value="%">%</option>
+	</select>
+	<input type="text" value="Number" onfocus="this.value=''" id="right_number">
+	</input>
+	<input type="submit" value="Try me!" id="result" onclick="Calculator()"></input>
+	<script>
+
+	setInterval(function() {
+  		alert("Please, use me...");
+	}, 30000);
+			
+
+	function Calculator() {
+		var left_number = document.getElementById("left_number");
+		var operator = document.getElementById("operator");
+		var right_number = document.getElementById("right_number");
+		var x = parseInt(left_number.value);
+		var y = parseInt(right_number.value);
+		var result;
+		if (right_number.value && left_number.value && x >= 0 && y >= 0)
+		{
+			if (operator.value == '+')
+				result = x + y;
+			else if (operator.value == '-')
+				result = x - y;
+			else if (operator.value == '*')
+				result = x * y;
+			else if (operator.value == '/')
+			{
+				if (y == 0)
+					result = "It's over 9000!";
+				else
+					result = x / y;
+			}
+			else if (operator.value == '%')
+			{
+				if (y == 0)
+					result = "It's over 9000!";
+				else
+					result = x % y;
+			}
+			alert(result);
+			console.log(result);
+		}
+		else
+		{
+			alert('Error :(');
+			console.log('Error :(');
+		}
+	}
+	</script>
+	
+</div>
+<div id="pic" class="image"></div>
+</body>
+</html>

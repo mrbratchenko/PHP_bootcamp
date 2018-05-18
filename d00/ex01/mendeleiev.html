@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body {background-color: grey;}
+		h1 {text-align: center; color: white; text-shadow: black 3px 3px 20px, black 3px 3px 20px, black 3px 3px 20px;}
+		table {border: 2px solid blue; width: 100%; table-layout: fixed}
+		td {border: 2px solid black;}
+		#img1 {height: 100px; width: 100px; display: block; margin-right: auto}
+		#img2 {height: 100px; width: 100px; display: block; margin-left: auto}
+		.noborder {border: none;}
+		.alkali {background-color: #e3eaa7;}
+		.alkali_metal {background-color: #d64161;}
+		.earth_metal {background-color: #dac292;}
+		.trans_metal {background-color: #f7cac9;}
+		.lathanide {background-color: #ff99ff;}
+		.actinide {background-color: #ff33cc;}
+		.unknown {background-color: #e0e0e0;}
+		.metalloid {background-color: #BDB76B;}
+		.diatomic {background-color: #00FA9A;}
+		.noble_gas {background-color: #87CEFA;}
+		.span1 {display: block; text-align: right;}
+		.span2 {display: block; text-align: center; font-weight: bold;}
+		.span3 {vertical-align: bottom;}
+	</style>
+</head>
+<body>
+	<img id="img1" src="https://www.flinnsci.com/globalassets/flinn-scientific/website-content-graphics/navigation-icons/chemistry.png" />
+	<table>
+		<thead>
+			<h1>Periodic table</h1>
+		</thead>
+		<tbody>
+			<tr>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					Group
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					1
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					2
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					3
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					4
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					5
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					6
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					7
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					8
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					9
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					10
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					11
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					12
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					13
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					14
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					15
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					16
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					17
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom; text-align: center;">
+					18
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" style="vertical-align: top; text-align: center;">
+					Period<br /><br />
+					1
+				</td>
+				<td class="alkali" contenteditable="true" >
+					<span class="span1">1.0079</span><br />
+					<span class="span2">H</span><br />
+					<span class="span3">1</span>
+				</td>
+				<td class="noborder" colspan="16">
+				</td>
+				<td class="noble_gas" contenteditable="true">
+					<span class="span1">4.0026</span><br />
+					<span class="span2">He</span><br />
+					<span class="span3">2</span>
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" style="vertical-align: middle; text-align: center;">
+					2
+				</td>
+				<td class="alkali_metal" contenteditable="true">
+					<span class="span1">6.941</span><br />
+					<span class="span2">Li</span><br />
+					<span class="span3">3</span>
+				</td>
+				<td class="earth_metal" contenteditable="true">
+					<span class="span1">9.0122</span><br />
+					<span class="span2">Be</span><br />
+					<span class="span3">4</span>
+				</td>
+				<td class="noborder" colspan="10">
+				</td>
+				<td class="metalloid" contenteditable="true">
+					<span class="span1">10.811</span><br />
+					<span class="span2">B</span><br />
+					<span class="span3">5</span>
+				</td>
+				<td class="diatomic" contenteditable="true">
+					<span class="span1">12.0107</span><br />
+					<span class="span2">C</span><br />
+					<span class="span3">6</span>
+				</td>
+				<td class="alkali" contenteditable="true">
+					<span class="span1">14.0067</span><br />
+					<span class="span2">N</span><br />
+					<span class="span3">7</span>
+				</td>
+				<td class="alkali" contenteditable="true">
+					<span class="span1">15.9994</span><br />
+					<span class="span2">O</span><br />
+					<span class="span3">8</span>
+				</td>
+				<td class="alkali" contenteditable="true">
+					<span class="span1">18.9984</span><br />
+					<span class="span2">F</span><br />
+					<span class="span3">9</span>
+				</td>
+				<td class="noble_gas" contenteditable="true">
+					<span class="span1">20.1797</span><br />
+					<span class="span2">Ne</span><br />
+					<span class="span3">10</span>
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" style="vertical-align: middle; text-align: center;">
+					3
+				</td>
+				<td class="alkali_metal" contenteditable="true">
+					<span class="span1">22.9897</span><br />
+					<span class="span2">Na</span><br />
+					<span class="span3">11</span>
+				</td>
+				<td class="earth_metal" contenteditable="true">
+					<span class="span1">24.305</span><br />
+					<span class="span2">Mg</span><br />
+					<span class="span3">12</span>
+				</td>
+				<td class="noborder" colspan="10">
+				</td>
+				<td contenteditable="true">
+					<span class="span1">26.9815</span><br />
+					<span class="span2">Al</span><br />
+					<span class="span3">13</span>
+				</td>
+				<td class="metalloid" contenteditable="true">
+					<span class="span1">28.0855</span><br />
+					<span class="span2">Si</span><br />
+					<span class="span3">14</span>
+				</td>
+				<td class="diatomic" contenteditable="true">
+					<span class="span1">30.9738</span><br />
+					<span class="span2">P</span><br />
+					<span class="span3">15</span>
+				</td>
+				<td class="diatomic" contenteditable="true">
+					<span class="span1">32.065</span><br />
+					<span class="span2">S</span><br />
+					<span class="span3">16</span>
+				</td>
+				<td class="alkali" contenteditable="true">
+					<span class="span1">35.453</span><br />
+					<span class="span2">Cl</span><br />
+					<span class="span3">17</span>
+					<br />
+				</td>
+				<td class="noble_gas" contenteditable="true">
+					<span class="span1">39.948</span><br />
+					<span class="span2">Ar</span><br />
+					<span class="span3">18</span>
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" style="vertical-align: middle; text-align: center;">
+					4
+				</td>
+				<td class="alkali_metal" contenteditable="true">
+					<span class="span1">39.0983</span><br />
+					<span class="span2">K</span><br />
+					<span class="span3">19</span>
+				</td>
+				<td class="earth_metal" contenteditable="true">
+					<span class="span1">40.078</span><br />
+					<span class="span2">Ca</span><br />
+					<span class="span3">20</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">44.9559</span><br />
+					<span class="span2">Sc</span><br />
+					<span class="span3">21</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">47.867</span><br />
+					<span class="span2">Ti</span><br />
+					<span class="span3">22</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">50.9415</span><br />
+					<span class="span2">V</span><br />
+					<span class="span3">23</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">51.9961</span><br />
+					<span class="span2">Cr</span><br />
+					<span class="span3">24</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">54.938</span><br />
+					<span class="span2">Mn</span><br />
+					<span class="span3">25</span>
+
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">55.845</span><br />
+					<span class="span2">Fe</span><br />
+					<span class="span3">26</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">58.6934</span><br />
+					<span class="span2">Co</span><br />
+					<span class="span3">27</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">58.9332</span><br />
+					<span class="span2">Ni</span><br />
+					<span class="span3">28</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">63.546</span><br />
+					<span class="span2">Cu</span><br />
+					<span class="span3">29</span>
+				</td>
+				<td contenteditable="true">
+					<span class="span1">65.39</span><br />
+					<span class="span2">Zn</span><br />
+					<span class="span3">30</span>
+				</td>
+				<td contenteditable="true">
+					<span class="span1">69.723</span><br />
+					<span class="span2">Ga</span><br />
+					<span class="span3">31</span>
+				</td>
+				<td class="metalloid" contenteditable="true">
+					<span class="span1">72.64</span><br />
+					<span class="span2">Ge</span><br />
+					<span class="span3">32</span>
+				</td>
+				<td class="metalloid" contenteditable="true">
+					<span class="span1">74.9216</span><br />
+					<span class="span2">As</span><br />
+					<span class="span3">33</span>
+				</td>
+				<td class="diatomic" contenteditable="true">
+					<span class="span1">78.96</span><br />
+					<span class="span2">Se</span><br />
+					<span class="span3">34</span>	
+				</td>
+				<td class="alkali" contenteditable="true">
+					<span class="span1">79.904</span><br />
+					<span class="span2">Br</span><br />
+					<span class="span3">35</span>
+				</td>
+				<td class="noble_gas" contenteditable="true">
+					<span class="span1">83.8</span><br />
+					<span class="span2">Kr</span><br />
+					<span class="span3">36</span>
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" style="vertical-align: middle; text-align: center;">
+					5
+				</td>
+				<td class="alkali_metal" contenteditable="true">
+					<span class="span1">85.4678</span><br />
+					<span class="span2">Rb</span><br />
+					<span class="span3">37</span>
+				</td>
+				<td class="earth_metal" contenteditable="true">
+					<span class="span1">87.62</span><br />
+					<span class="span2">Sr</span><br />
+					<span class="span3">38</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">88.9059</span><br />
+					<span class="span2">Y</span><br />
+					<span class="span3">39</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">91.224</span><br />
+					<span class="span2">Zr</span><br />
+					<span class="span3">40</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">92.9064</span><br />
+					<span class="span2">Nb</span><br />
+					<span class="span3">41</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">95.94</span><br />
+					<span class="span2">Mo</span><br />
+					<span class="span3">42</span>
+				</td>
+				<td class="trans_metal" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">98</span><br />
+					<span class="span2">Tc</span><br />
+					<span class="span3">43</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">101.07</span><br />
+					<span class="span2">Ru</span><br />
+					<span class="span3">44</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">102.9055</span><br />
+					<span class="span2">Rh</span><br />
+					<span class="span3">45</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">106.42</span><br />
+					<span class="span2">Pd</span><br />
+					<span class="span3">46</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">107.8682</span><br />
+					<span class="span2">Ag</span><br />
+					<span class="span3">47</span>
+				</td>
+				<td contenteditable="true">
+					<span class="span1">112.411</span><br />
+					<span class="span2">Cd</span><br />
+					<span class="span3">48</span>
+				</td>
+				<td contenteditable="true">
+					<span class="span1">114.818</span><br />
+					<span class="span2">In</span><br />
+					<span class="span3">49</span>
+				</td>
+				<td contenteditable="true">
+					<span class="span1">118.71</span><br />
+					<span class="span2">Sn</span><br />
+					<span class="span3">50</span>
+				</td>
+				<td class="metalloid" contenteditable="true">
+					<span class="span1">121.76</span><br />
+					<span class="span2">Sb</span><br />
+					<span class="span3">51</span>
+				</td>
+				<td class="metalloid" contenteditable="true">
+					<span class="span1">127.6</span><br />
+					<span class="span2">Te</span><br />
+					<span class="span3">52</span>
+				</td>
+				<td class="alkali" contenteditable="true">
+					<span class="span1">126.9045</span><br />
+					<span class="span2">I</span><br />
+					<span class="span3">53</span>
+				</td>
+				<td class="noble_gas" contenteditable="true">
+					<span class="span1">131.293</span><br />
+					<span class="span2">Xe</span><br />
+					<span class="span3">54</span>
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" style="vertical-align: middle; text-align: center;">
+					6
+				</td>
+				<td class="alkali_metal" contenteditable="true">
+					<span class="span1">132.9055</span><br />
+					<span class="span2">Cs</span><br />
+					<span class="span3">55</span>
+				</td>
+				<td class="earth_metal" contenteditable="true">
+					<span class="span1">137.327</span><br />
+					<span class="span2">Ba</span><br />
+					<span class="span3">56</span>
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom">
+					57-71
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">178.49</span><br />
+					<span class="span2">Hf</span><br />
+					<span class="span3">72</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">180.9479</span><br />
+					<span class="span2">Ta</span><br />
+					<span class="span3">73</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">183.84</span><br />
+					<span class="span2">W</span><br />
+					<span class="span3">74</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">186.207</span><br />
+					<span class="span2">Re</span><br />
+					<span class="span3">75</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">190.23</span><br />
+					<span class="span2">Os</span><br />
+					<span class="span3">76</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">192.217</span><br />
+					<span class="span2">IR</span><br />
+					<span class="span3">77</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">195.078</span><br />
+					<span class="span2">Pt</span><br />
+					<span class="span3">78</span>
+				</td>
+				<td class="trans_metal" contenteditable="true">
+					<span class="span1">196.9665</span><br />
+					<span class="span2">Au</span><br />
+					<span class="span3">79</span>
+				</td>
+				<td contenteditable="true">
+					<span class="span1">200.59</span><br />
+					<span class="span2">Hg</span><br />
+					<span class="span3">80</span>
+				</td>
+				<td contenteditable="true">
+					<span class="span1">204.3833</span><br />
+					<span class="span2">Tl</span><br />
+					<span class="span3">81</span>
+				</td>
+				<td contenteditable="true">
+					<span class="span1">207.2</span><br />
+					<span class="span2">Pb</span><br />
+					<span class="span3">82</span>
+				</td>
+				<td contenteditable="true">
+					<span class="span1">208.9804</span><br />
+					<span class="span2">Bi</span><br />
+					<span class="span3">83</span>
+				</td>
+				<td contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">209</span><br />
+					<span class="span2">Po</span><br />
+					<span class="span3">84</span>
+				</td>
+				<td class="metalloid" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">210</span><br />
+					<span class="span2">At</span><br />
+					<span class="span3">85</span>
+				</td>
+				<td class="noble_gas" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">222</span><br />
+					<span class="span2">Rn</span><br />
+					<span class="span3">86</span>
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" style="vertical-align: middle; text-align: center;">
+					7
+				</td>
+				<td class="alkali_metal" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">223</span><br />
+					<span class="span2">Fr</span><br />
+					<span class="span3">87</span>
+				</td>
+				<td class="earth_metal" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">226</span><br />
+					<span class="span2">Ra</span><br />
+					<span class="span3">88</span>
+				</td>
+				<td contenteditable="true" style="vertical-align: bottom">
+					89-103
+				</td>
+				<td class="trans_metal" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">261</span><br />
+					<span class="span2">Rf</span><br />
+					<span class="span3">104</span>
+				</td>
+				<td class="trans_metal" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">262</span><br />
+					<span class="span2">Db</span><br />
+					<span class="span3">105</span>
+				</td>
+				<td class="trans_metal" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">266</span><br />
+					<span class="span2">Sg</span><br />
+					<span class="span3">106</span>
+				</td>
+				<td class="trans_metal" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">264</span><br />
+					<span class="span2">Bh</span><br />
+					<span class="span3">107</span>
+				</td>
+				<td class="trans_metal" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">270</span><br />
+					<span class="span2">Hs</span><br />
+					<span class="span3">108</span>
+				</td>
+				<td class="unknown" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">276</span><br />
+					<span class="span2">Mt</span><br />
+					<span class="span3">109</span>
+				</td>
+				<td class="unknown" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">281</span><br />
+					<span class="span2">110</span><br />
+					<span class="span3">Ds</span>
+				</td>
+				<td class="unknown" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">280</span><br />
+					<span class="span2">Rg</span><br />
+					<span class="span3">111</span>
+				</td>
+				<td contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">285</span><br />
+					<span class="span2">Cn</span><br />
+					<span class="span3">112</span>
+				</td>
+				<td class="unknown" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">286</span><br />
+					<span class="span2">Nh</span><br />
+					<span class="span3">113</span>
+				</td>
+				<td class="unknown" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">289</span><br />
+					<span class="span2">Fl</span><br />
+					<span class="span3">114</span>
+				</td>
+				<td class="unknown" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">289</span><br />
+					<span class="span2">Mc</span><br />
+					<span class="span3">115</span>
+				</td>
+				<td class="unknown" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">293</span><br />
+					<span class="span2">Lv</span><br />
+					<span class="span3">116</span>
+				</td>
+				<td class="unknown" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">294</span><br />
+					<span class="span2">Ts</span><br />
+					<span class="span3">117</span>
+				</td>
+				<td class="unknown" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">294</span><br />
+					<span class="span2">Og</span><br />
+					<span class="span3">118</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="noborder">
+					
+				</td>
+				<td class="noborder" colspan="2">
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">138.9055</span><br />
+					<span class="span2">La</span><br />
+					<span class="span3">57</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">140.116</span><br />
+					<span class="span2">Ce</span><br />
+					<span class="span3">58</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">140.9077</span><br />
+					<span class="span2">Pr</span><br />
+					<span class="span3">59</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">144.24</span><br />
+					<span class="span2">Nd</span><br />
+					<span class="span3">60</span>
+				</td>
+				<td class="lathanide" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">145</span><br />
+					<span class="span2">Pm</span><br />
+					<span class="span3">61</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">150.36</span><br />
+					<span class="span2">Sm</span><br />
+					<span class="span3">62</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">151.964</span><br />
+					<span class="span2">Eu</span><br />
+					<span class="span3">63</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">157.25</span><br />
+					<span class="span2">Gd</span><br />
+					<span class="span3">64</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">158.9253</span><br />
+					<span class="span2">Tb</span><br />
+					<span class="span3">65</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">162.5</span><br />
+					<span class="span2">Dy</span><br />
+					<span class="span3">66</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">164.9303</span><br />
+					<span class="span2">Ho</span><br />
+					<span class="span3">67</span>					
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">167.259</span><br />
+					<span class="span2">Er</span><br />
+					<span class="span3">68</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">168.9342</span><br />
+					<span class="span2">Tm</span><br />
+					<span class="span3">69</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">173.04</span><br />
+					<span class="span2">Yb</span><br />
+					<span class="span3">70</span>
+				</td>
+				<td class="lathanide" contenteditable="true">
+					<span class="span1">174.967</span><br />
+					<span class="span2">Lu</span><br />
+					<span class="span3">71</span>
+				</td>
+				<td class="noborder">
+				</td>
+			</tr>
+			<tr>
+				<td class="noborder">
+					
+				</td>
+				<td class="noborder" colspan="2">
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">227</span><br />
+					<span class="span2">Ac</span><br />
+					<span class="span3">89</span>	
+				</td>
+				<td class="actinide" contenteditable="true">
+					<span class="span1">231.0359</span><br />
+					<span class="span2">Th</span><br />
+					<span class="span3">90</span>					
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">232.0381</span><br />
+					<span class="span2">Pa</span><br />
+					<span class="span3">91</span>
+				</td>
+				<td class="actinide" contenteditable="true">
+					<span class="span1">237</span><br />
+					<span class="span2">U</span><br />
+					<span class="span3">92</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">238.0289</span><br />
+					<span class="span2">Np</span><br />
+					<span class="span3">93</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dashed black">
+					<span class="span1">243</span><br />
+					<span class="span2">Pu</span><br />
+					<span class="span3">94</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">244</span><br />
+					<span class="span2">Am</span><br />
+					<span class="span3">95</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">247</span><br />
+					<span class="span2">Cm</span><br />
+					<span class="span3">96</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">247</span><br />
+					<span class="span2">Bk</span><br />
+					<span class="span3">97</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">251<</span><br />
+					<span class="span2">Cf</span><br />
+					<span class="span3">98</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">252</span><br />
+					<span class="span2">Es</span><br />
+					<span class="span3">99</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">257</span><br />
+					<span class="span2">Fm</span><br />
+					<span class="span3">100</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">258</span><br />
+					<span class="span2">Md</span><br />
+					<span class="span3">101</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">259</span><br />
+					<span class="span2">No</span><br />
+					<span class="span3">102</span>
+				</td>
+				<td class="actinide" contenteditable="true" style="border: 2px dotted black">
+					<span class="span1">262</span><br />
+					<span class="span2">Lr</span><br />
+					<span class="span3">103</span>
+				</td>
+				<td class="noborder">
+
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" colspan="19" class="noborder" style="text-align: center; color: white;">
+					Background color shows subcategory in the metal–metalloid–nonmetal trend
+				</td>
+			</tr>
+			<tr style="text-align: center;">
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td contenteditable="true" color="grey">
+					Post-​transition metal
+				<td contenteditable="true" class="alkali">
+					Diatomic nonmetal
+				</td>
+				<td contenteditable="true" class="alkali_metal">
+					Alkali metal
+				</td>
+				<td contenteditable="true" class="earth_metal">
+					Alkaline earth metal
+				</td>
+				<td contenteditable="true" class="trans_metal">
+					Transition metal
+				</td>
+				<td contenteditable="true" class="lathanide">
+					Lan­thanide
+				</td>
+				<td contenteditable="true" class="actinide">
+					Actinide
+				</td>
+				<td contenteditable="true" class="unknown">
+					Unknown chemical properties
+				</td>
+				<td contenteditable="true" class="metalloid">
+					Metalloid
+				</td>
+				<td contenteditable="true" class="diatomic">
+					Diatomic nonmetal
+				</td>
+				<td contenteditable="true" class="noble_gas">
+					Noble gas
+				</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" colspan="19" class="noborder" style="text-align: center; color: white;">
+					Border shows natural occurrence of the element
+				</td>
+			</tr>
+			<tr style="text-align: center;">
+				
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td contenteditable="true">
+					Primordial
+				<td contenteditable="true" style="border: 2px dashed black">
+					From decay
+				</td>
+				<td contenteditable="true" style="border: 2px dotted black">
+					Synthetic
+				</td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+				<td class="noborder"></td>
+			</tr>
+		</tbody>
+	</table>
+	<img id="img2" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/NuclearReaction.svg" />
+</body>
+</html>
